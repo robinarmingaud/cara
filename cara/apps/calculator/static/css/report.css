@@ -107,6 +107,10 @@ p.notes {
     /* #body {
         min-width: 1200px;
     } */
+    body {
+        -webkit-print-color-adjust: exact; /chrome & webkit browsers/
+        color-adjust: exact; /*firefox & IE */
+    }
     #results,
     #rules,
     #data {
